@@ -42,3 +42,13 @@
     float: right;
     cursor: pointer;
 }
+.help-block {
+    height: 24px;
+}
+.help-block.text-danger {
+    color: white !important;
+}
+#success {
+    height: 50px;
+    margin-bottom: 10px;
+}
