@@ -1,0 +1,77 @@
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    height: 100%;
+    position: relative;
+}
+
+.intro {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    z-index: 997;
+}
+
+.intro-header {
+    padding-top: 38px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(/vid/Meeting-Room.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.intro-message {
+    position: relative;
+    padding: 0 1rem;
+    padding-top: 32%;
+}
+
+.intro-message>h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: Roboto Mono, Courier New, Courier, monospace;
+    color: #FBCFCF;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.intro-message>h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.intro-message>h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.intro-message>p {
+    font-size: 1.3em;
+}
+
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro .container {
+    padding: 0;
+}
+
+/* greater than xs/phones */
+@media (min-width: 768px) {
+    .intro-message {
+        padding-top: 20%;
+    }
+    .intro-message>h1 {
+        font-size: 2rem;
+    }
+    .intro-message>h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .intro-message .btn.btn-sm {
+        padding: 1rem 2rem;
+    }
+
+}
